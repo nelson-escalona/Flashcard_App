@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_width="match_parent"
+        android:background="#FF3131"
+        android:textColor="#FFFFFF"
+        android:layout_height="200dp"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="How to get good grades in college?" />
+
+    <TextView
+        android:id="@+id/Answer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#39FF14"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="Study."
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
