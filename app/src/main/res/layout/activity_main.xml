@@ -28,4 +28,12 @@
         android:textSize="40sp"
         android:visibility="invisible" />
 
+    <ImageView
+        android:id="@+id/add_question_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/icon_add" />
+
 </RelativeLayout>

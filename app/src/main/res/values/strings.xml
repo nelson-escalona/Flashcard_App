@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Codepath Flashcard App</string>
+    <string name="this_is_some_hint_text">This is some hint text!</string>
 </resources>
