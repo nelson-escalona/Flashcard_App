@@ -6,7 +6,7 @@ Saving cards to a database and creating a button to cycle through the cards.
 
 ### App Walk-though
 
-<img src="(http://g.recordit.co/Is9oh8siyw.gif)" width=200><br>
+<img src=http://g.recordit.co/Is9oh8siyw.gif width=200><br>
 
 
 ## Required
