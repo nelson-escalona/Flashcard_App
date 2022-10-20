@@ -20,8 +20,8 @@ class Activity_AddCard : AppCompatActivity() {
             val answerString = answerEditText.text.toString()
 
             val data = Intent()
-            data.putExtra("Question_Key", questionString)
-            data.putExtra("Answer_Key", answerString)
+            data.putExtra("QUESTION_KEY", questionString)
+            data.putExtra("ANSWER_KEY", answerString)
 
             setResult(RESULT_OK, data)
             finish()
